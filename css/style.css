@@ -29,7 +29,6 @@
     --font-weight-bold: 700;
     --font-weight-extra-bold: 800;
 }
-
 #nav-bar {
     display: flex;
     width: 1440px;
@@ -48,4 +47,25 @@
     display: flex;
     align-items: center;
     gap: 40px;
+}
+
+#hero-section {
+    background: url(/img/hero-image.png) lightgray 0.055px 0px / 100% 100.174% no-repeat;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 200px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+#hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    font-family: var(--font-family)
 }
