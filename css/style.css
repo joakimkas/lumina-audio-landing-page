@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Farver */
+    --sunset-orange: ;
+    --sage-green: rgba(255, 127, 62, 1);
+    --lemon: rgba(255, 213, 100, 1);
+    --ocean-blue: rgba(0, 38, 102, 1);
+    --lighter-blue: rgba(42, 98, 154, 1);
+    --white: #ffffff;
+    --black: #000;
+
+        /* typografi */
+    --font-family: "Bricolage Grotesque", sans-serif;
+    --font-size-titel-2: 38px;
+    --font-size-titel-3: 32px;
+    --font-size-broed: 28px;
+    --font-size-broed-2: 20px;
+    --font-size-broed-3: 16px;
+
+    /* font weight */
+    --font-weight-extra-light: 200;
+    --font-weight-regular: 400;
+    --font-weight-semibold: 500;
+    --font-weight-bold: 700;
+    --font-weight-extra-bold: 800;
+}
+
+#nav-bar {
+    display: flex;
+    width: 1440px;
+    padding: 32px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    font-family: var(--font-family);
+    font-size: var(--font-size-broed-2);
+}
+
+#menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
