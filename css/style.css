@@ -34,9 +34,12 @@
     padding: 32px;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
     font-family: var(--font-family);
     font-size: var(--font-size-broed-2);
+    background: none;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
 }
 #logo {
  height: 50px;
@@ -50,12 +53,14 @@
     gap: 40px;
     color: #FFF;
 }
-
-#hero-section {
+#hero-background {
     background: url(/img/hero-image.png) lightgray 0.055px 0px / 100% 100.174% no-repeat;
-    background-position: right;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 800px;
+}
+#hero-section {
     display: flex;
     padding: 200px;
     flex-direction: column;
@@ -87,7 +92,7 @@
 
 #hero-headers p {
     color: #FFF;
-    font-size: var(--font-size-titel-3);
+    font-size: var(--font-size-broed-2);
     font-weight: var(--font-weight-extra-light);
 }
 
