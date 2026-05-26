@@ -122,3 +122,83 @@
     align-items: center;
     gap: 10px;
 }
+#info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+#color-select {
+    display: flex;
+    height: 756px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+#color-select #colors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+#color-select .color {
+    width: 64px;
+    height: 64px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+#color-select #red {
+    background-color: rgb(237,193,190);
+}
+
+#color-select #green {
+    background-color: rgb(212,211,199);
+}
+
+#color-select #white {
+    background-color: rgb(243,236,231);
+}
+
+#color-select #lavender {
+    background-color: rgb(229,205,213);
+}
+
+#info {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+#info ul {
+    color: #000;
+    font-family: "Bricolage Grotesque";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+#info h3 {
+    color: #000;
+    font-family: "Bricolage Grotesque";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 142.857%
+}
+
+#info #laer-mere {
+    color: #000;
+    border-color: #000;
+}
