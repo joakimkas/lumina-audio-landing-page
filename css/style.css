@@ -378,19 +378,26 @@
 
 
 .review-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-  padding: 2rem 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
 }
 
 .review-card {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border-radius: 15px;
-  padding: 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  transition: transform 0.3s;
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 30px;
+    background: var(--lighter-blue);
+}
+
+.review-info {
+    font-family: "Bricolage Grotesque";
+    color: white;
+    gap: 10px;
 }
 
 .review-card:hover {
@@ -398,14 +405,21 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
+.review-card h2 {
+  font-size: var(--font-size-titel-3)
+}
+
+.review-card #date-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
 .review-card h3 {
-  color: #ffd700;
-  margin-bottom: 0.5rem;
   font-size: 1.2rem;
 }
 
 .review-card p {
-  opacity: 0.9;
-  font-size: 0.95rem;
-  margin: 0.3rem 0;
+    font-weight: var(--font-weight-extra-light);
 }
