@@ -57,3 +57,17 @@ function showReview(review) {
 
   reviewList.insertAdjacentHTML("beforeend", html);
 }
+
+const speakerImage = document.querySelector("#speaker-image");
+const colors = document.querySelectorAll(".color");
+
+colors.forEach(color => {
+  color.addEventListener("click", () => {
+
+    const selectedColor = color.id;
+
+    speakerImage.src = `/img/speaker-${selectedColor}.png`;
+    speakerImage.alt = `speaker ${selectedColor}`;
+
+  });
+});
