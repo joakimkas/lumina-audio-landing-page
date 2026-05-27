@@ -270,7 +270,6 @@
     align-items: center;
     flex-shrink: 0;
     align-self: stretch;
-    background-color: var(--ocean-blue);
 }
 
 #playlist-text {
@@ -290,7 +289,7 @@
     flex-direction: column;
     align-items: center;
     gap: 8px;
-    color:  white;
+    color: black;
     font-family: "Bricolage Grotesque";
     font-size: 38px;
     font-style: normal;
@@ -307,8 +306,10 @@
 }
 
 #playlist-text .button {
-    color: white;
-    border-color: white;
+    background-color: var(--sunset-orange);
+    color: black;
+    border: none;
+    width: fit-content;
 }
 
 #playlist-image {
@@ -316,4 +317,95 @@
     height: 800px;
     background-image: url(/img/playlist-image.png);
     background-size: cover;
+}
+
+#connect {
+    display: flex;
+    height: 800px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+    background-color: var(--ocean-blue);
+}
+
+#connect-text {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex: 1 0 0;
+    align-self: stretch;
+    padding: 150px;
+}
+
+#connect-text-only {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-family: "Bricolage Grotesque";
+    font-size: 38px;
+    font-style: normal;
+    line-height: 40px; /* 105.263% */
+    text-align: center;
+}
+
+#connect-text-only #regular {
+    font-weight: var(--font-weight-extra-light);
+}
+
+#connect-text-only #bold {
+    font-weight: var(--font-weight-bold);
+}
+
+#connect-text .button {
+    box-sizing: border-box;
+    border: 3px solid #FFF;
+    background: none;
+    color: white;
+}
+
+#connect-image {
+    width: 50vw;
+    height: 800px;
+    background-image: url(/img/connect-image.png);
+    background-size: cover;
+}
+
+
+.review-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.review-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.review-card h3 {
+  color: #ffd700;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.review-card p {
+  opacity: 0.9;
+  font-size: 0.95rem;
+  margin: 0.3rem 0;
 }
