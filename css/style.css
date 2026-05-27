@@ -207,3 +207,113 @@
     color: #000;
     border-color: #000;
 }
+
+#transport {
+    display: flex;
+    height: 800px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+    background-color: var(--sunset-orange);
+}
+
+#transport-text {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex: 1 0 0;
+    align-self: stretch;
+    padding: 150px;
+}
+
+#transport-text-only {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: #000;
+    font-family: "Bricolage Grotesque";
+    font-size: 38px;
+    font-style: normal;
+    line-height: 40px; /* 105.263% */
+    text-align: center;
+}
+
+#transport-text-only #regular {
+    font-weight: var(--font-weight-regular);
+}
+
+#transport-text-only #bold {
+    font-weight: var(--font-weight-bold);
+}
+
+#transport-text .button {
+    color: #000;
+    border-color: #000;
+}
+
+#transport-image {
+    width: 50vw;
+    height: 800px;
+    background-image: url(/img/transport-image.png);
+    background-size: cover;
+}
+
+#playlist {
+    display: flex;
+    height: 800px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+    background-color: var(--ocean-blue);
+}
+
+#playlist-text {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex: 1 0 0;
+    align-self: stretch;
+    padding: 150px;
+}
+
+#playlist-text-only {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color:  white;
+    font-family: "Bricolage Grotesque";
+    font-size: 38px;
+    font-style: normal;
+    line-height: 40px; /* 105.263% */
+    text-align: center;
+}
+
+#playlist-text-only #regular {
+    font-weight: var(--font-weight-regular);
+}
+
+#playlist-text-only #bold {
+    font-weight: var(--font-weight-bold);
+}
+
+#playlist-text .button {
+    color: white;
+    border-color: white;
+}
+
+#playlist-image {
+    width: 50vw;
+    height: 800px;
+    background-image: url(/img/playlist-image.png);
+    background-size: cover;
+}
