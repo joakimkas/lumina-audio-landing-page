@@ -66,6 +66,11 @@ colors.forEach(color => {
 
     const selectedColor = color.id;
 
+    colors.forEach(c => c.classList.remove("pressed"));
+
+    color.classList.add("pressed");
+
+
     speakerImage.src = `/img/speaker-${selectedColor}.png`;
     speakerImage.alt = `speaker ${selectedColor}`;
 

@@ -155,11 +155,17 @@
 }
 
 #color-select .color {
-    width: 64px;
-    height: 64px;
-    aspect-ratio: 1/1;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    border: none;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.2s;
+}
+
+#color-select .color.pressed {
+  border: 2px solid black;
+  transform: scale(1.1);
 }
 
 #color-select #red {
@@ -177,6 +183,8 @@
 #color-select #lavender {
     background-color: rgb(229,205,213);
 }
+
+
 
 #info {
     display: flex;
