@@ -17,6 +17,14 @@ const reviews = [
     title: "Batteriet holder længe",
     text: "Jeg tog den med på weekendtur og brugte den i timevis uden at tænke på opladning. USB-C er så nice, fordi man kan bruge samme oplader som til alt andet. Den føles solid og premium, men stadig let nok at tage med rundt."
   },
+
+    {
+    name: "Camille Jakobsen",
+    date: "28. januar 2026",
+    rating: "⭐⭐⭐⭐⭐",
+    title: "Nemt at tage med",
+    text: "Den er super nem at bære i håndtaget og føles ikke klodset, selv når man går et stykke. Vi brugte den i parken, og den kunne sagtens overdøve snak uden at blive “for meget”. Batteriet holdt hele dagen uden stress."
+  },
 ]
 
 const reviewList = document.querySelector("#review-list");

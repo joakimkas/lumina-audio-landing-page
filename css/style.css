@@ -376,11 +376,24 @@
     background-size: cover;
 }
 
+#review-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#happy {
+    font-family: var(--font-family);
+    font-size: var(--font-size-titel-2);
+    text-align: center;
+}
 
 .review-grid {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 10px;
+    padding: 16px;
+    gap: 16px;
 }
 
 .review-card {
@@ -422,4 +435,10 @@
 
 .review-card p {
     font-weight: var(--font-weight-extra-light);
+}
+
+#se-alle {
+    color: white;
+    border: none;
+    background-color: var(--lighter-blue);
 }
