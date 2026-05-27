@@ -54,7 +54,7 @@
     color: #FFF;
 }
 #hero-background {
-    background: url(/img/hero-image.png) lightgray 0.055px 0px / 100% 100.174% no-repeat;
+    background: url(/img/hero-image5.png) lightgray 0.055px 0px / 100% 100.174% no-repeat;
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,7 +62,7 @@
 }
 #hero-section {
     display: flex;
-    padding: 200px;
+    padding: 266px;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
@@ -134,6 +134,8 @@
     gap: 160px;
     flex-shrink: 0;
     align-self: stretch;
+    padding: 32px;
+    height: 800px;
 }
 
 #color-select {
@@ -243,11 +245,11 @@
     text-align: center;
 }
 
-#transport-text-only #regular {
-    font-weight: var(--font-weight-regular);
+#regular {
+    font-weight: var(--font-weight-extra-light);
+    font-size: var(--font-size-broed);
 }
-
-#transport-text-only #bold {
+#bold {
     font-weight: var(--font-weight-bold);
 }
 
@@ -297,13 +299,6 @@
     text-align: center;
 }
 
-#playlist-text-only #regular {
-    font-weight: var(--font-weight-regular);
-}
-
-#playlist-text-only #bold {
-    font-weight: var(--font-weight-bold);
-}
 
 #playlist-text .button {
     background-color: var(--sunset-orange);
@@ -354,13 +349,6 @@
     text-align: center;
 }
 
-#connect-text-only #regular {
-    font-weight: var(--font-weight-extra-light);
-}
-
-#connect-text-only #bold {
-    font-weight: var(--font-weight-bold);
-}
 
 #connect-text .button {
     box-sizing: border-box;
@@ -380,7 +368,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    padding: 32px;
+    height: 800px;
 }
 
 #happy {
@@ -398,7 +387,7 @@
 
 .review-card {
     width: 400px;
-    height: 350px;
+    height: 250px;
     padding: 20px;
     display: flex;
     flex-direction: column;
