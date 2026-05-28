@@ -4,7 +4,7 @@ console.log("Review sektion starter...");
 
 const reviews = [
     {
-    name: "Sille Klysner Kjems",
+    name: "Sille Kjems",
     date: "3. maj 2025",
     rating: "⭐⭐⭐⭐⭐",
     title: "Multi-parring er et kæmpe plus",
