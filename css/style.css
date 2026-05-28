@@ -440,3 +440,62 @@
     border: none;
     background-color: var(--lighter-blue);
 }
+
+footer {
+    display: flex;
+    padding: 96px 120px 15px 120px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: var(--ocean-blue);
+}
+
+#columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+
+#columns ul li {
+    color: #FFF;
+    font-family: "Bricolage Grotesque";
+    font-size:var(--font-size-broed-3);
+    font-style: normal;
+    font-weight:var(--font-weight-regular);
+    list-style-type: none;
+    padding: 10px 0 10px 0;
+    margin: 0;
+}
+
+#columns ul #list-bold {
+    font-weight: var(--font-weight-bold);
+}
+
+#newsletter-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+}
+
+#emaerke-trustpilot {
+    display: flex;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+#newsletter-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#newsletter-box h2 {
+    color: #FFF;
+    font-family: "Bricolage Grotesque";
+    font-size: --font-size-titel-2
+    font-weight: var(--font-weight-regular);
+}
