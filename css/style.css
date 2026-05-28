@@ -378,7 +378,7 @@
     flex-direction: column;
     align-items: center;
     padding: 32px;
-    height: 800px;
+    height: 450px;
 }
 
 #happy {
@@ -496,6 +496,24 @@ footer {
 #newsletter-box h2 {
     color: #FFF;
     font-family: "Bricolage Grotesque";
-    font-size: --font-size-titel-2
+    font-size: 32px;
     font-weight: var(--font-weight-regular);
+}
+
+#newsletter-box #input-button {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+#newsletter-box #input-button #input {
+    width: 300px;
+    height: 32px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #FFF;
+}
+
+#tilmeld-button {
+    color: var(--ocean-blue);
+    border: none;
 }
