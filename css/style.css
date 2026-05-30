@@ -509,7 +509,7 @@ footer {
     font-weight: var(--font-weight-bold);
 }
 
-#columns ul .list-bold {
+#columns ul .list-bold:hover {
     opacity: 100%;
     cursor:default;
 }
@@ -565,6 +565,7 @@ footer {
 #tilmeld-button {
     color: var(--ocean-blue);
     border: none;
+    background-color: white;
 }
 
 #bottom {
