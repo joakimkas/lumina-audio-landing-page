@@ -28,6 +28,9 @@ const reviews = [
 ]
 
 const reviewList = document.querySelector("#review-list");
+const speakerImage = document.querySelector("#speaker-image");
+const colors = document.querySelectorAll(".color");
+const button = document.getElementById("tilmeld-button");
 
 showReviews();
 
@@ -58,9 +61,6 @@ function showReview(review) {
   reviewList.insertAdjacentHTML("beforeend", html);
 }
 
-const speakerImage = document.querySelector("#speaker-image");
-const colors = document.querySelectorAll(".color");
-
 colors.forEach(color => {
   color.addEventListener("click", () => {
 
@@ -75,4 +75,10 @@ colors.forEach(color => {
     speakerImage.alt = `speaker ${selectedColor}`;
 
   });
+});
+
+button.addEventListener("click", () => {
+    button.textContent = "Tilmeldt ✓";
+    button.style.backgroundColor = "#4CAF50";
+    button.style.color = "white";
 });
