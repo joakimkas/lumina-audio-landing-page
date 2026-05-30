@@ -108,7 +108,7 @@
     font-weight: var(--font-weight-extra-light);
 }
 
-.button {
+.button1 {
     display: flex;
     width: 186px;
     height: 60px;
@@ -119,27 +119,34 @@
     font-family: var(--font-family);
     font-size: 28px;
     font-weight: var(--font-weight-regular);
-}
-
-.button:hover {
-  transform: translateY(-1px);
-  opacity: 50%;
-  cursor: pointer;
-}
-
-#koeb-nu {
     background: var(--sunset-orange, #FF7F3E);
     border: none;
 }
 
-#laer-mere {
+.button2 {
+    display: flex;
+    width: 186px;
+    height: 60px;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-family: var(--font-family);
+    font-size: 28px;
+    font-weight: var(--font-weight-regular);
     box-sizing: border-box;
     border: 3px solid #FFF;
     background: none;
     color: white;
 }
 
-#buttons {
+.button1:hover, .button2:hover {
+  transform: translateY(-1px);
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.buttons {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -238,7 +245,7 @@
     line-height: 142.857%
 }
 
-#info #laer-mere {
+#info .button2 {
     color: #000;
     border-color: #000;
 }
@@ -278,15 +285,15 @@
     text-align: center;
 }
 
-#regular {
+.regular {
     font-weight: var(--font-weight-extra-light);
     font-size: var(--font-size-broed);
 }
-#bold {
+.bold {
     font-weight: var(--font-weight-bold);
 }
 
-#transport-text .button {
+#transport-text .button2 {
     color: #000;
     border-color: #000;
 }
@@ -333,7 +340,7 @@
 }
 
 
-#playlist-text .button {
+#playlist-text .button1 {
     background-color: var(--sunset-orange);
     color: black;
     border: none;
@@ -383,7 +390,7 @@
 }
 
 
-#connect-text .button {
+#connect-text .button1 {
     box-sizing: border-box;
     border: 3px solid #FFF;
     background: none;
@@ -487,7 +494,7 @@ footer {
     font-family: "Bricolage Grotesque";
     font-size:var(--font-size-broed-3);
     font-style: normal;
-    font-weight:var(--font-weight-regular);
+    font-weight:var(--font-weight-extra-light);
     list-style-type: none;
     padding: 10px 0 10px 0;
     margin: 0;
@@ -498,11 +505,11 @@ footer {
     cursor: pointer;
 }
 
-#columns ul #list-bold {
+#columns ul .list-bold {
     font-weight: var(--font-weight-bold);
 }
 
-#columns ul #list-bold {
+#columns ul .list-bold {
     opacity: 100%;
     cursor:default;
 }
