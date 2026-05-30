@@ -48,7 +48,7 @@ function showReview(review) {
     <article class="review-card">
       <div class="review-info">
         <h2>${review.name}</h2>
-        <div id="date-rating">
+        <div class="date-rating">
         <p>Rating: ${review.rating}</p>
         <p>Dato: ${review.date}</p>
         </div>
