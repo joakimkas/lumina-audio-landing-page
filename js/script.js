@@ -71,7 +71,7 @@ colors.forEach(color => {
     color.classList.add("pressed");
 
 
-    speakerImage.src = `../img/speaker-${selectedColor}.png`;
+    speakerImage.src = `./img/speaker-${selectedColor}.png`;
     speakerImage.alt = `speaker ${selectedColor}`;
 
   });
