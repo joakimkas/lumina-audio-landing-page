@@ -305,7 +305,7 @@
     background-size: cover;
 }
 
-#playlist {
+#pairing {
     display: flex;
     height: 800px;
     justify-content: space-between;
@@ -314,7 +314,7 @@
     align-self: stretch;
 }
 
-#playlist-text {
+#pairing-text {
     width: 50vw;
     display: flex;
     flex-direction: column;
@@ -326,7 +326,7 @@
     padding: 150px;
 }
 
-#playlist-text-only {
+#pairing-text-only {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -340,21 +340,23 @@
 }
 
 
-#playlist-text .button1 {
+#pairing-text .button1 {
     background-color: var(--sunset-orange);
     color: black;
     border: none;
     width: fit-content;
 }
 
-#playlist-image {
+#pairing-image {
     width: 50vw;
     height: 800px;
-    background-image: url(/img/playlist-image.png);
-    background-size: cover;
+    background: url(/img/lumina-app.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-#connect {
+#blend {
     display: flex;
     height: 800px;
     justify-content: space-between;
@@ -364,7 +366,7 @@
     background-color: var(--ocean-blue);
 }
 
-#connect-text {
+#blend-text {
     width: 50vw;
     display: flex;
     flex-direction: column;
@@ -376,7 +378,7 @@
     padding: 150px;
 }
 
-#connect-text-only {
+#blend-text-only {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -390,14 +392,14 @@
 }
 
 
-#connect-text .button1 {
+#blend-text .button1 {
     box-sizing: border-box;
     border: 3px solid #FFF;
     background: none;
     color: white;
 }
 
-#connect-image {
+#blend-image {
     width: 50vw;
     height: 800px;
     background-image: url(/img/connect-image.png);
