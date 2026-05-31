@@ -66,7 +66,7 @@
 }
 
 #hero-background {
-    background: url(/img/hero-image1.png) lightgray 0.055px 0px / 100% 100.174% no-repeat;
+    background: url(./img/hero-image1.png) lightgray 0.055px 0px / 100% 100.174% no-repeat;
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -301,7 +301,7 @@
 #transport-image {
     width: 50vw;
     height: 800px;
-    background-image: url(/img/transport-image.png);
+    background-image: url(./img/transport-image.png);
     background-size: cover;
 }
 
@@ -350,7 +350,7 @@
 #pairing-image {
     width: 50vw;
     height: 800px;
-    background: url(/img/lumina-app.png);
+    background: url(./img/lumina-app.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -402,7 +402,7 @@
 #blend-image {
     width: 50vw;
     height: 800px;
-    background-image: url(/img/connect-image.png);
+    background-image: url(./img/connect-image.png);
     background-size: cover;
 }
 
